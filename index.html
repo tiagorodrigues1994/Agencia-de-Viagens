@@ -19,108 +19,98 @@
     <main>
         <section class="banner">
             <div class="formulario limita-secao">
-                <div class="solicitacao">
-                    <img src="imagens/aviao.png" alt="logo avião">
-                    <h1>Solicite um orçamento</h1>
-                </div>
-                <div class="informe-form">
-                    <h2>Informe seus dados</h2>
-                    <form method="post" class="formulario"
-                        action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
 
-                        <div class="info">
-                            <label for="nome">Nome</label>
-                            <input type="text" name="nome" placeholder="Nome completo" required>
-                            <label for="email">Email</label>
-                            <input type="email" name="email" placeholder="E-mail" required>
-                            <label for="telefone">Celular</label>
-                            <input type="tel" name="telefone" placeholder="xx-xxxx-xxxx" required>
-                        </div>
-                        <div class="formulario limita-secao">
-                            <div class="solicitacao">
-                                <img src="imagens/aviao.png" alt="logo avião">
-                                <h1>Solicite um orçamento</h1>
+                <div class="formulario ">
+                    <div class="solicitacao">
+                        <img src="imagens/aviao.png" alt="logo avião">
+                        <h1>Solicite um orçamento</h1>
+                    </div>
+                    <div class="informe-form ">
+                        <h2>Informe seus dados</h2>
+                        <form method="post" class="formulario"
+                            action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
+
+                            <div class="info">
+                                <label for="nome">Nome</label>
+                                <input type="text" name="nome" placeholder="Nome completo" required>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" placeholder="E-mail" required>
+                                <label for="telefone">Celular</label>
+                                <input type="tel" name="telefone" placeholder="xx-xxxx-xxxx" required>
                             </div>
-                            <div class="informe-form">
-                                <h2>Informe seus dados</h2>
-                                <form method="post" class="formulario"
-                                    action="https://www.devmedia.com.br/codigos/missao/front-end/agencia-de-viagens/">
-            
-                                    <div class="info">
-                                        <label for="nome">Nome</label>
-                                        <input type="text" name="nome" placeholder="Nome completo" required>
-                                        <label for="email">Email</label>
-                                        <input type="email" name="email" placeholder="E-mail" required>
-                                        <label for="telefone">Celular</label>
-                                        <input type="tel" name="telefone" placeholder="xx-xxxx-xxxx" required>
-                                    </div>
-                                    <div class="info02">
-                                        <div class="fff">
-                                            <label for="data-ida">Data da ida</label>
-                                            <input type="date" name="data-ida">
-            
-            
-                                            <label for="origem">Origem</label>
-                                            <select name="origem" id="origem">
-                                                <option select>Partindo de</option>
-                                                <option value="AM">Amazonas</option>
-                                                <option value="RJ">Rio de Janeiro</option>
-                                                <option value="SP">São Paulo</option>
-                                                <option value="GO">Goias</option>
-                                                <option value="MA">Maranhão</option>
-                                            </select>
-                                        </div>
-            
-                                            <div class="ooo">
-                                             <label for="data-volta">Data da volta</label>
-                                            <input type="date" name="data-volta">
-            
-                                                <label for="destino">Destino</label>
-                                                <select name="destino" id="destino">
-                                                    <option select>indo para</option>
-                                                    <option value="AM">Amazonas</option>
-                                                    <option value="RJ">Rio de Janeiro</option>
-                                                    <option value="SP">São Paulo</option>
-                                                    <option value="GO">Goias</option>
-                                                    <option value="MA">Maranhão</option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-            
-            
-                        <div>
-                            <h3>Quarto com cama infantil?</h3>
-                            <div>
-                                <div>
-                                    <input type="radio" name="resposta" id="cama-infantil" value="sim" />
-                                    <label for="cama-infantil">Sim</label>
+                            <div class="info02">
+                                <div class="fff">
+                                    <label for="data-ida">Data da ida</label>
+                                    <input type="date" name="data-ida">
+
+
+                                    <label for="origem">Origem</label>
+                                    <select name="origem" id="origem">
+                                        <option select>Partindo de</option>
+                                        <option value="AM">Amazonas</option>
+                                        <option value="RJ">Rio de Janeiro</option>
+                                        <option value="SP">São Paulo</option>
+                                        <option value="GO">Goias</option>
+                                        <option value="MA">Maranhão</option>
+                                    </select>
                                 </div>
 
-                                <div>
-                                    <input type="radio" name="resposta" id="cama-infantil" value="nao" />
-                                    <label for="cama-infantil">Não</label>
+                                <div class="ooo">
+                                    <label for="data-volta">Data da volta</label>
+                                    <input type="date" name="data-volta">
+
+                                    <label for="destino">Destino</label>
+                                    <select name="destino" id="destino">
+                                        <option select>indo para</option>
+                                        <option value="AM">Amazonas</option>
+                                        <option value="RJ">Rio de Janeiro</option>
+                                        <option value="SP">São Paulo</option>
+                                        <option value="GO">Goias</option>
+                                        <option value="MA">Maranhão</option>
+                                    </select>
                                 </div>
                             </div>
-                        </div>
+                            <div class="quarto">
+                                <h3>Quarto com cama infantil?</h3>
+                                <div class="quarto-sn">
+                                    <div>
+                                        <input type="radio" name="resposta" id="cama-infantil" value="sim" />
+                                        <label for="cama-infantil">Sim</label>
+                                    </div>
 
-                        <div>
-                            <h3>Preferências da hospedagem</h3>
-                            <div>
-                                <input type="checkbox" name="preferencias[]" id="piscina" value="Piscina">
-                                <label for="piscina">Piscina</label>
-
-                                <input type="checkbox" name="preferencias[]" id="Wi-fi" value="Wi-fi">
-                                <label for="Wi-fi">Wi-fi</label>
-
-                                <input type="checkbox" name="preferencias[]" id="garagem" value="garagem">
-                                <label for="garagem">Garagem</label>
-
-                                <input type="checkbox" name="preferencias[]" id="suite" value="suite">
-                                <label for="suite">Suite</label>
+                                    <div>
+                                        <input type="radio" name="resposta" id="cama-infantil" value="nao" />
+                                        <label for="cama-infantil">Não</label>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                        <button type="submit">Solicitar orçamento</button>
+
+                            <div class="hospedagem">
+                                <h3>Preferências da hospedagem</h3>
+                                <div class="hospedagem-check">
+                                    <div><input type="checkbox" name="preferencias[]" id="piscina" value="Piscina">
+                                        <label for="piscina">Piscina</label>
+                                    </div>
+
+                                    <div><input type="checkbox" name="preferencias[]" id="Wi-fi" value="Wi-fi">
+                                        <label for="Wi-fi">Wi-fi</label>
+                                    </div>
+
+                                    <div><input type="checkbox" name="preferencias[]" id="garagem" value="garagem">
+                                        <label for="garagem">Garagem</label>
+                                    </div>
+
+                                    <div><input type="checkbox" name="preferencias[]" id="suite" value="suite">
+                                        <label for="suite">Suite</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box-botao"><button class="botao" type="submit">Solicitar orçamento</button></div>
+                            
+                    </div>
+
+
+
                     </form>
                 </div>
             </div>

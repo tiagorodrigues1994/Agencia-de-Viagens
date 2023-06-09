@@ -1,29 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
-    
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
+    outline: 1px red solid;
 }
 
-header{
+header {
     width: 100%;
     padding: 10px 0px;
     background-color: #fff;
 }
 
-.limita-secao{
+.limita-secao {
     max-width: 1024px;
     margin: 0 auto;
 }
 
-.logo img{
+.logo img {
     width: 30px;
     margin: 10px;
 }
 
-.logo{
+.logo {
     display: flex;
     align-items: center;
     color: #5d15d1;
@@ -31,27 +32,27 @@ header{
     font-weight: 600;
 }
 
-.solicitacao img{
+.solicitacao img {
     width: 30px;
     margin: 4px;
-   rotate:-45deg;
+    rotate: -45deg;
 }
 
-.formulario{
-    background-color:#fff;
+.formulario {
+    background-color: #fff;
 }
 
-.solicitacao{
+.solicitacao {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 16px; 
-    padding:6px;
+    font-size: 16px;
+    padding: 6px;
     background-color: #5d15d1;
     color: #fff;
 }
 
-.banner{
+.banner {
     background-image: url(../imagens/bahia.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -60,42 +61,117 @@ header{
     padding-top: 50px;
 }
 
-.informe-form{
-    margin: 25px 15px;
+.informe-form {
+    margin: 15px 15px;
     display: flex;
     flex-direction: column;
 }
 
-.informe-form h2{
+.informe-form h2 {
     padding: 20px 0px;
     font-size: 22px;
     font-weight: 700;
-    
+
 }
-.info{
+
+.info {
     display: flex;
     flex-direction: column;
-    
+
 }
-.info input{
+
+.info input {
     margin: 10px 0px;
     padding: 5px;
 }
 
-.info02{
+.info02 {
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
 
-.fff, .ooo{
+.fff,
+.ooo {
     display: flex;
     flex-direction: column;
     width: 50%;
 }
-.ooo{
-    margin-left: 10px ;
+
+.ooo {
+    margin-left: 10px;
 }
 
-input, select{
+input,
+select {
     padding: 5px 0px;
+}
+
+.quarto h3 {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.quarto-sn {
+    max-width: 190px;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0px;
+}
+
+.quarto-sn label {
+    margin-left: 5px;
+}
+
+.hospedagem h3 {
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.hospedagem-check {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.hospedagem label {
+    margin-left: 5px;
+}
+
+.botao {
+    padding: 10px 15px;
+    margin: 0px 0px 15px 10px;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: hsl(263, 82%, 45%);
+    border: none;
+}
+
+.botao:hover {
+    color: fff;
+    background-color: hsl(262, 39%, 62%);
+    transition: .7s;
+}
+
+@media (max-width:425px) {
+    .logo {
+        justify-content: center;
+    }
+
+    .informe-form h2,
+    h3 {
+        text-align: center;
+    }
+
+    .quarto-sn {
+        max-width: 100%;
+        justify-content: space-around;
+    }
+    
+    .box-botao{
+        padding-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
 }
