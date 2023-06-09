@@ -2,7 +2,7 @@
 *{
     margin: 0;
     padding: 0;
-    outline: 1px solid red;
+    
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
 }
@@ -61,5 +61,41 @@ header{
 }
 
 .informe-form{
-    margin-top: 40px;
+    margin: 25px 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.informe-form h2{
+    padding: 20px 0px;
+    font-size: 22px;
+    font-weight: 700;
+    
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    
+}
+.info input{
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+.info02{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.fff, .ooo{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.ooo{
+    margin-left: 10px ;
+}
+
+input, select{
+    padding: 5px 0px;
 }
